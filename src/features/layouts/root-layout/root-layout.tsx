@@ -10,7 +10,7 @@ const RootLayout = () => {
     <CartProvider>
       <div className="flex min-h-svh flex-col space-y-5 pb-10">
         <Header />
-        <main className="container mx-auto flex flex-1">
+        <main className="container mx-auto flex flex-1 px-4">
           <Outlet />
         </main>
       </div>
